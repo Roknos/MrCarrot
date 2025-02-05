@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 import { Client, Collection, GatewayIntentBits } from 'discord.js';
-import { logInfo, logWarning, logSuccess, logStatus, logStatup, logError } from '@lib/console';
+import { logSuccess, logStatus, logStatup, logError } from '@lib/console';
 import settings from './settings/core.json';
 import type { CustomClient, Command } from '@lib/types';
 
